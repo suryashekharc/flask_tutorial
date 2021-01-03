@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if title %}
+        <title>Flask | {{ title }}</title>
+    {% else %}
+        <title>Flask</title>
+    {% endif%}
+</head>
+<!--Jehetu shudhu next part tai overwritten hobe by the bachhas who'll inherit this,
+    we use the keyword block-->
+<body>
+    {% block content %}{% endblock content %}
+</body>
+
+<!--
+    FUNFACT:
+    The name Jinja was chosen because it’s the name of a Japanese temple
+    and temple and template share a similar pronunciation
+-->
+
+</html>
