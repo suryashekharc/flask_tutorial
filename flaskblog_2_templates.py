@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from flask import url_for  # Eta URL resolve korte kaaje ashe, in Jinja
 app = Flask(__name__)
 
 # Creating a dummy dataset jeta ideally DB theke aana uchit
